@@ -1,0 +1,220 @@
+/* --------------------------------
+Fonts From Google Fonts
+----------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Coiny&family=Concert+One&family=Courgette&family=Dancing+Script&family=Devonshire&family=Great+Vibes&family=Lilita+One&family=Nunito&family=Patua+One&family=Poppins:wght@300&family=Roboto+Slab&family=Viga&display=swap');
+
+/* --------------------------------
+Start for styling Website!
+----------------------------------- */
+.navbar-brand {
+  font-family: 'Viga', sans-serif;
+  font-weight: bold;
+}
+.jumbotron {
+  background-image: url(img/jumbotron-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-shadow: 1px 2px 4px #000;
+}
+.tombol-primary {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 7px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.tombol-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 7px 20px;
+}
+/* Mwdia Querys for DESKTOP VERSION */
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff !important;
+    text-shadow: 1px 1px 1px #000000;
+    letter-spacing: 1px;
+  }
+  .tombol {
+    background: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  .tombol:hover {
+    color: #fff;
+  }
+  .nav-link {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 1px #000000;
+    margin-right: 1rem;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+  }
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #0d6efd;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 4px;
+    margin-bottom: -7px;
+    border-radius: 2px;
+    transition: all 1.4s;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+  }
+  .jumbotron {
+    margin-top: -75px;
+  }
+}
+/* Media Querys for MOBILE VERSION */
+@media (max-width: 991px) {
+  .tombol {
+    background: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .tombol:hover {
+    color: #fff;
+  }
+  .infoDesc {
+    margin-bottom: 10px;
+  }
+  .infoPanel {
+    margin: 5px;
+  }
+  .workingspace h1 {
+    color: #122d57;
+    margin-top: 1.5rem;
+  }
+}
+.infoPanel {
+  background-color: white;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin-top: -70px;
+  padding: 1.5rem;
+}
+.infoPanel h5 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #122d57;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+.workingspace h1 {
+  color: #122d57;
+}
+.workingspace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tombol-gallery {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: 100%;
+  max-width: 38%;
+  padding: 4px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.testimonial p {
+  font-size: 1.4em;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #0a1e3a;
+}
+.testimonial .img-main {
+  width: 100px;
+  height: 100px;
+  margin-top: -5px;
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  filter: blur(2px) grayscale(0.6);
+  -webkit-filter: blur(2px) grayscale(0.6);
+}
+.testimonial .info-text h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #122d57;
+  font-family: sans-serif;
+}
+.testimonial .info-text p {
+  font-size: 13px;
+  margin-top: -5px;
+  color: #acacac;
+  font-style: normal;
+}
+.footer p {
+  font-size: 1em;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 30px;
+  color: #acacac;
+}
